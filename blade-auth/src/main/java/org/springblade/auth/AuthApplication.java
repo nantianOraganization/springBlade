@@ -21,7 +21,7 @@ import org.springblade.core.launch.BladeApplication;
 import org.springblade.core.launch.constant.AppConstant;
 
 /**
- * 用户认证服务器
+ * 用户认证服务器  修改启动类
  *
  * @author Chill
  */
