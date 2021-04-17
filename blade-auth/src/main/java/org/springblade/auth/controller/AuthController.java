@@ -41,7 +41,9 @@ import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
 /**
- * 认证模块
+ * 认证模块  修改认证模块测试  贾晟哲 修改认证模块
+ * 认证模块  修改认证模块测试  贾静飞--修改认证模块
+ * jsz 修改认证逻辑
  *
  * @author Chill
  */
