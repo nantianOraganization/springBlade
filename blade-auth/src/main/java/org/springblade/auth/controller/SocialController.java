@@ -88,5 +88,15 @@ public class SocialController {
 		return authRequest.refresh(AuthToken.builder().refreshToken(token).build());
 	}
 
+	/**
+	 * 贾静飞修改了这个类
+	 */
+	@ApiOperation(value = "续期令牌")
+	//@RequestMapping("/oauth/refresh/{source}")
+	public Object refreshAuth2(@PathVariable("source") String source, String token) {
+		AuthRequest authRequest = SocialUtil.getAuthRequest(source, socialProperties);
+		return authRequest.refresh(AuthToken.builder().refreshToken(token).build());
+	}
+
 
 }
